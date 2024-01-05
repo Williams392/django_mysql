@@ -37,27 +37,28 @@
         }
         `       
 
-```json
-[
-    {
-        "id": 1,
-        "name": "Facebook",
-        "website": "https://www.facebook.com/",
-        "foundation": 2004
-    },
-    {
-        "id": 2,
-        "name": "Steam",
-        "website": "https://store.steampowered.com/",
-        "foundation": 2003
-    },
-    {
-        "id": 3,
-        "name": "Instagram",
-        "website": "https://www.instagram.com/",
-        "foundation": 2010
-    }
-]
+    #####  JSON
+    ```json
+    [
+        {
+            "id": 1,
+            "name": "Facebook",
+            "website": "https://www.facebook.com/",
+            "foundation": 2004
+        },
+        {
+            "id": 2,
+            "name": "Steam",
+            "website": "https://store.steampowered.com/",
+            "foundation": 2003
+        },
+        {
+            "id": 3,
+            "name": "Instagram",
+            "website": "https://www.instagram.com/",
+            "foundation": 2010
+        }
+    ]
 ```
-##### Base de Datos.
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kj8KXqbg/img-mysql-django.png' border='0' alt='img-mysql-django'/></a>
+    ##### Base de Datos.
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kj8KXqbg/img-mysql-django.png' border='0' alt='img-mysql-django'/></a>
