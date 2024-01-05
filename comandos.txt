@@ -25,15 +25,18 @@ comando -> [django-admin startapp api
 
 Comando -> [pip install djangorestframework
 
-Comando para levantar servidor:
-5. [python manage.py migrate]
-5.1 [python manage.py makemigrations]
-5.2 de nuevo para crear la TABLA: [python manage.py migrate]
+5: Para  guardar las librerias Instalas de Python:
+# comando -> [[pip freeze > requirements.txt]
 
-6. Para el Login, iniciar sección:
+Comando para levantar servidor:
+6. [python manage.py migrate]
+6.1 [python manage.py makemigrations]
+6.2 de nuevo para crear la TABLA: [python manage.py migrate]
+
+7. Para el Login, iniciar sección:
 comando -> [python manage.py createsuperuser]
  _ Username: williams392
  _ email: v_s392@gmail.com
  _ Password: l_5
 
-7. Activar el servidor: [python manage.py runserver]
+8. Activar el servidor: [python manage.py runserver]
