@@ -1,0 +1,39 @@
+--- Django REST Framework (DRF) ---
+
+1. crear entorno VIRTUAL:
+
+comando -> [python -m virtualenv venv
+
+2. activar entorno VIRTUAL:
+
+comando -> [source venv/Scripts/activate
+
+3. instalar Base de datos:
+
+comando(MySQL)       -> [pip install Django mysqlclient 
+comando(PostgreSQL)  -> [pip install Django psycopg2
+
+4. Creando el PROYECTO de Django:
+
+comando -> [django-admin startproject drf_mysql .
+
+4.1 Creando una aplicacion de Django:
+
+comando -> [django-admin startapp api
+
+4.2: Para usar (Django REST Framework)
+
+Comando -> [pip install djangorestframework
+
+Comando para levantar servidor:
+5. [python manage.py migrate]
+5.1 [python manage.py makemigrations]
+5.2 de nuevo para crear la TABLA: [python manage.py migrate]
+
+6. Para el Login, iniciar sección:
+comando -> [python manage.py createsuperuser]
+ _ Username: williams392
+ _ email: v_s392@gmail.com
+ _ Password: l_5
+
+7. Activar el servidor: [python manage.py runserver]
