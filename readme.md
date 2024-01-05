@@ -1,27 +1,26 @@
 
-1.  Activar el modo virtual.
+    1.  Activar el modo virtual.
 
         source venv/Scripts/activate -> para Windows
         . env/bin/activate -> Para Mac
 
-2.  Instalar Django desde el manejador de paquete de Python Pip, ya dentro del entorno virtual.
+    2.  Instalar Django desde el manejador de paquete de Python Pip, ya dentro del entorno virtual.
 
         pip install -r requirements.txt
 
-3. Crear las migraciones y correrlas
+    3. Crear las migraciones y correrlas
 
-        python manage.py makemigrations -> Creando migraciones
+        python manage.py makemigrations  -> Creando migraciones
         python manage.py migrate         -> Correr migraciones
 
-4. Correr el proyecto
+    4. Correr el proyecto
 
         python manage.py runserver
         Revisar la consola y visitar la URL http://127.0.0.1:8000
 
 
-5. Editar el archivo settings.py del proyecto, cambiando los parametros de conexión a MySQL
+    5. Editar el archivo settings.py del proyecto, cambiando los parametros de conexión a MySQL
 
-        `
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.mysql',
@@ -34,8 +33,7 @@
                     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
                 }
             }
-        }
-        `       
+        }  
 
     #####  JSON
     ```json
